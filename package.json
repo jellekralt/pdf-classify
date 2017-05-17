@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "start:watch": "./node_modules/nodemon/bin/nodemon.js index"
+  },
   "dependencies": {
     "bluebird": "^3.5.0",
     "natural": "^0.5.1",
     "textract": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
