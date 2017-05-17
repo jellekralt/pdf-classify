@@ -1,0 +1,6 @@
+# Packages
+node_modules/
+
+# Don't commit documents to classify
+test/documents
+test/verify
